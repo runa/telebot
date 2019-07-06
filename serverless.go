@@ -19,7 +19,7 @@ import (
 type ServerlessWebhook struct {
 	Listen   string
 	Endpoint *WebhookEndpoint
-	Request  http.Request
+	Request  *http.Request
 	Response http.ResponseWriter
 	dest     chan<- Update
 	bot      *Bot
