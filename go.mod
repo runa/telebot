@@ -1,4 +1,4 @@
-module telebot
+module github.com/runa/telebot
 
 go 1.11
 
